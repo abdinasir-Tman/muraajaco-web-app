@@ -1,10 +1,10 @@
-import Header from "@/component/Header";
+import Header from "@/components/Header";
 import Image from "next/image";
 import Link from "next/link";
-import Hero from "@/component/Hero";
+import Hero from "@/components/Hero";
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <Hero />
     </div>
   );
