@@ -1,18 +1,37 @@
-import Header from "@/components/Header";
+import Header from "@/app/components/Header";
 import "./globals.css";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+interface Props {
+  title: string;
+  description: string;
+  openGraph: {
+    type: string;
+    url: string;
+    title: string;
+    description: string;
+    siteName: string;
+    images: [{}];
+  };
+}
+
+export const metadata: Props = {
   title: "Muraajaco",
   description: "Caawiyaha f4",
-};
-
-const meta = {
-  image: "/logo/logo.png",
+  openGraph: {
+    type: "website",
+    url: "https://muraajaco.com",
+    title: "Muraajaco",
+    description: "Caawiyaha f4",
+    siteName: "Muraajaco",
+    images: [
+      {
+        url: "/assets/meta/logo.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -22,13 +41,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <meta property="og:image" content={meta.image} />
-        <meta property="og:image:alt" content="muraajaco app" />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-      </Head>
       <body className={inter.className}>
         <Header />
         {children}
