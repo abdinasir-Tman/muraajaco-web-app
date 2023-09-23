@@ -13,15 +13,22 @@ const Hero = () => {
             Secured like we care about our own
           </p>
           <button className="font-Poppins text-2xl  bg-white flex justify-center items-center w-56 rounded-lg">
-            <Image src="/assets/svg/logo/icon.svg" alt="muraajaco" height={60} width={60} />
-            <h2 className="text-2xl text-[#10b981] font-Poppins font-bold ">Get the App</h2>
+            <Image
+              src="/assets/svg/logo/icon.svg"
+              alt="muraajaco"
+              height={60}
+              width={60}
+            />
+            <h2 className="text-2xl text-[#10b981] font-Poppins font-bold ">
+              Get the App
+            </h2>
           </button>
         </div>
       </div>
 
       <div className="relative w-[55%]">
         <Image
-          className="absolute top-24"
+          className="absolute -bottom-16 "
           src="/assets/images/muraajaco.webp"
           alt="muraajaco"
           height={500}
