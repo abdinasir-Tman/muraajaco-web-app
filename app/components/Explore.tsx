@@ -1,9 +1,8 @@
 import Image from "next/image";
-import React from "react";
 
 const Explore = () => {
   return (
-    <section className="mx-52 my-40 flex items-center gap-20">
+    <section className="px-52 my-40 flex items-center gap-20">
       <Image
         alt="muraajaco app"
         src="/assets/images/explore_new.webp"
