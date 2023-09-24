@@ -20,7 +20,7 @@ const Hero = () => {
               width={60}
             />
             <h2 className="text-2xl text-[#10b981] font-Poppins font-bold ">
-              Get the App
+              <span className="mr-2">Get the App</span>
             </h2>
           </button>
         </div>
