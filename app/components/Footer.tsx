@@ -1,8 +1,9 @@
+"use client";
 import Image from "next/image";
 import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="bg-[#1A263D] w-full py-24 px-20 grid grid-cols-6 gap-5 ">
+    <footer className="bg-[#1A263D] w-full py-24 px-20 grid grid-cols-6 md:grid md:grid-cols-1 sm:grid-cols-1 md:gap-3 gap-5 ">
       <div>
         <h1 className="mb-4 text-[#10b981] text-2xl font-bold">NEW</h1>
         <p className="text-gray-500 mb-3 cursor-pointer hover:text-[#10b981]">
@@ -56,7 +57,9 @@ const Footer = () => {
         />
         <h1 className="mb-4 text-[#10b981] text-2xl font-bold">Muraajaco</h1>
         <p className="text-gray-500   ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam cupiditate totam ut corporis! Id ea eaque repudiandae quidem pariatur officiis temporibus.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+          cupiditate totam ut corporis! Id ea eaque repudiandae quidem pariatur
+          officiis temporibus.
         </p>
       </div>
     </footer>
