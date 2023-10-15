@@ -3,11 +3,11 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-[#10b981] relative w-full px-48 flex gap-4 ">
-      <div className=" py-[160px] flex  justify-center items-center">
-        <div className="w-[90%] flex flex-col justify-center items-left gap-5">
-          <h1 className="text-6xl text-white  tracking-wide leading-[70px] font-extrabold font-Poppins">
-            The most intuitive app you can get.
+    <section className="bg-[#10b981] relative w-full px-48 md:px-8 md:flex-col md:pb-[170px] flex gap-4 ">
+      <div className=" py-[160px] flex md:flex-col md:py-[60px] justify-center items-center">
+        <div className="w-[90%] flex flex-col justify-center items-left md:items-center gap-5">
+          <h1 className="text-6xl text-white  tracking-wide leading-[70px] md:leading-[60px] md:text-4xl md:text-center font-extrabold font-Poppins">
+            The most intuitive app <br /> you can get.
           </h1>
           <p className="font-Heading text-2xl text-white font-semibold">
             Secured like we care about our own
@@ -26,9 +26,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-[55%]">
+      <div className="w-[55%] md:relative">
         <Image
-          className="absolute right-20 -bottom-24 "
+          className="absolute right-20  md:right-1/4 md:left-1/2 md:-bottom-[510px] -bottom-24 "
           src="/assets/images/muraajaco.webp"
           alt="muraajaco"
           height={450}
