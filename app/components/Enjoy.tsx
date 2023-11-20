@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Enjoy = () => {
   return (
-    <section className="px-48 md:flex-col-reverse my-40 flex items-center gap-32">
+    <section className="px-40 lg:flex-row md:flex-col-reverse my-40 flex items-center gap-32">
       <Image
         alt="muraajaco app"
         src="/assets/images/enjoy_new.webp"
