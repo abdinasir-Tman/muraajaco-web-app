@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className=" relative w-full px-2 bg-[#000] h-screen">
+    <section className=" relative w-full px-2 bg-[#10b981] h-screen">
       <div className="flex lg:flex-row md:flex-col flex-col">
         <div className="px-5 flex flex-col items-center justify-center">
           <h1 className="text-5xl text-white leading-tight font-Poppins font-bold text-center pt-10">
@@ -27,7 +27,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-[77%] relative bg-red mx-auto bottom-0">
+      {/* <div className="w-[77%] relative bg-red mx-auto bottom-0">
         <Image
           className="absolute top-16"
           src="/assets/images/muraajaco.webp"
@@ -36,7 +36,7 @@ const Hero = () => {
           width={450}
         />
         
-      </div>
+      </div> */}
     </section>
   );
 };
