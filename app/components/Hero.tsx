@@ -6,7 +6,7 @@ const Hero = () => {
     <section className="bg-[#10b981] relative w-full px-2 md:px-48">
       <div className="flex lg:flex-row md:flex-col flex-col">
         <div className="">
-          <h1 className="text-4xl font-serif text-center pt-5">
+          <h1 className="text-4xl font-Poppins font-bold text-center pt-10">
             The most intuitive app
             <br /> you can get.
           </h1>
@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="w-[55%] lg:static md:relative">
         <Image
           className="absolute lg:right-16  md:right-1/4 md:left-1/2 lg:-bottom-32 md:-bottom-[510px] -bottom-24 "
-          src="/assets/images/muraajaco.webp"
+          src="/assets/images/muraajaaco.webp"
           alt="muraajaco"
           height={450}
           width={450}
