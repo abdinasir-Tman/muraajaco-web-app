@@ -8,4 +8,5 @@
 
 - padding X (px-48)
 
-# Poppins
+# Font family:
+- Poppins
