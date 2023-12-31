@@ -6,7 +6,7 @@ const Hero = () => {
     <section className=" relative w-full px-2 bg-[#000] h-screen">
       <div className="flex lg:flex-row md:flex-col flex-col">
         <div className="px-5 flex flex-col items-center justify-center">
-          <h1 className="text-5xl leading-tight font-Poppins font-bold text-center pt-10">
+          <h1 className="text-5xl text-white leading-tight font-Poppins font-bold text-center pt-10">
             The most intuitive app
             <br /> you can get.
           </h1>

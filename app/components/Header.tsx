@@ -4,7 +4,7 @@ import { ModeToggle } from "./ThemeMode";
 
 const Header = () => {
   return (
-    <header className="bg-[#10b981]  py-2 px-2 md:px-48 flex justify-between w-full items-center">
+    <header className="bg-[#10b981] fixed inset-x-0 z-30  py-2 px-2 md:px-48 flex justify-between w-full items-center">
       <Link href="/">
         <Image
           className="text-[#1A263D]"
