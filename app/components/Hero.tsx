@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className=" relative w-full px-2 md:px-48 bg-[#10b981] h-screen">
+    <section className=" relative w-full px-2 bg-[#000] h-screen">
       <div className="flex lg:flex-row md:flex-col flex-col">
         <div className="px-5 flex flex-col items-center justify-center">
           <h1 className="text-5xl leading-tight font-Poppins font-bold text-center pt-10">
@@ -13,23 +13,23 @@ const Hero = () => {
           <p className="font-Heading text-2xl  text-center my-10 text-white font-semibold">
             Secured like we care about our own
           </p>
-          <button className="font-Poppins text-2xl  bg-white flex justify-center items-center w-56 rounded-lg">
+          <button className="font-Poppins  bg-white flex justify-evenly items-center w-48 py-2 rounded-lg">
             <Image
               src="/assets/svg/logo/icon.svg"
               alt="muraajaco"
-              height={60}
-              width={60}
+              height={40}
+              width={40}
             />
-            <h2 className="text-2xl text-[#10b981] font-Poppins font-bold ">
-              <span className="mr-2 ">Get the App</span>
+            <h2 className="text-lg text-[#10b981] font-Poppins font-bold">
+              Get the App
             </h2>
           </button>
         </div>
       </div>
 
-      <div className="w-[85%] relative bg-red mx-auto bottom-0">
+      <div className="w-[77%] relative bg-red mx-auto bottom-0">
         <Image
-          className="absolute top-20"
+          className="absolute top-16"
           src="/assets/images/muraajaco.webp"
           alt="muraajaco"
           height={450}
