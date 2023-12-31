@@ -10,10 +10,7 @@ const config = {
   ],
   prefix: "",
   theme: {
-    fontFamily: {
-      "Poppins" : "Poppins, sans-serif",
-      
-    },
+  
     container: {
       center: true,
       padding: "2rem",
