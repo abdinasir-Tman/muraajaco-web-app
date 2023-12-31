@@ -1,5 +1,5 @@
-import Header from "@/app/components/Header";
-import Hero from "@/app/components/Hero";
+import Header from "@/app/components/global/Header";
+import Hero from "@/app/components/home/Hero";
 import Explore from "./components/Explore";
 import Learn from "./components/Learn";
 import Buy from "./components/Buy";
