@@ -19,14 +19,14 @@ interface Props {
 }
 
 export const metadata: Props = {
-  title: "Muraajaco",
+  title: "Culuumta",
   description: "Caawiyaha f4",
   openGraph: {
     type: "website",
-    url: "https://muraajaco.com",
-    title: "Muraajaco",
+    url: "https://culuumta.com",
+    title: "Culuumta",
     description: "Caawiyaha f4",
-    siteName: "Muraajaco",
+    siteName: "Culuumta",
     images: [
       {
         url: "/assets/meta/logo.png",
