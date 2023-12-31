@@ -10,6 +10,7 @@ const config = {
   ],
   prefix: "",
   theme: {
+  
     container: {
       center: true,
       padding: "2rem",
@@ -18,6 +19,7 @@ const config = {
       },
     },
     extend: {
+      
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
