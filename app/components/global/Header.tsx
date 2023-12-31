@@ -8,7 +8,7 @@ const Header = () => {
       <Link href="/">
         <Image
           className="text-[#1A263D]"
-          src="/assets/svg/logo/icon-white.svg"
+          src="/assets/svg/logo/icon-light.svg"
           alt="Muraajaco-logo-icon-dark"
           width={70}
           height={70}
