@@ -6,7 +6,7 @@ import Buy from "./components/home/Buy";
 import Manage from "./components/home/Manage";
 import Enjoy from "./components/home/Enjoy";
 import Portfolio from "./components/home/Portfolio";
-import DownloadBtn from "./components/global/DownloadBtn";
+import DownloadBtn from "./components/home/DownloadBtn";
 
 export default function Home() {
   return (

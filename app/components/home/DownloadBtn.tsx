@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { MdDownload } from "react-icons/md";
 
 const DownloadBtn = () => {
