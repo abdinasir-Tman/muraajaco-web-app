@@ -1,14 +1,24 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import Header from "@/app/components/global/Header";
 import "./globals.css";
-
-import { ThemeProvider } from "./provide/Theme-Provide";
-import Header from "./components/global/Header";
-import Footer from "./components/global/Footer";
+import { Inter } from "next/font/google";
+import DownloadBtn from "./components/DownloadBtn";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
+interface Props {
+  title: string;
+  description: string;
+  openGraph: {
+    type: string;
+    url: string;
+    title: string;
+    description: string;
+    siteName: string;
+    images: [{}];
+  };
+}
+
+export const metadata: Props = {
   title: "Culuumta",
   description: "Caawiyaha f4",
   openGraph: {
@@ -33,16 +43,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
-          <Header />
-          {children}
-          <Footer />
-        </ThemeProvider>
+        <Header />
+        {children}
+        <DownloadBtn />
       </body>
     </html>
   );

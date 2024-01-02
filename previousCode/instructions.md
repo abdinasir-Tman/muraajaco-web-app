@@ -7,6 +7,3 @@
 # Layout schema:
 
 - padding X (px-48)
-
-# Font family:
-- Poppins
