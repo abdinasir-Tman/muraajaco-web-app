@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <div className="mt-20">
+      <div className="mt-20 md:mt-[28rem]">
         <Explore />
         <Learn />
         <Buy />
