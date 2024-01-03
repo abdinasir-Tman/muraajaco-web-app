@@ -12,12 +12,14 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Explore />
-      <Learn />
-      <Buy />
-      <Manage />
-      <Enjoy />
-      <Portfolio />
+      <div className="mt-20">
+        <Explore />
+        <Learn />
+        <Buy />
+        <Manage />
+        <Enjoy />
+        <Portfolio />
+      </div>
       <DownloadBtn />
     </>
   );

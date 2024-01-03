@@ -3,10 +3,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className=" relative w-full px-2 bg-[#10b981] h-screen">
+    <section className=" relative w-full px-2 bg-[#10b981] h-screen lg:h-[28rem] lg:px-40">
       <div className="flex lg:flex-row md:flex-col flex-col">
         <div className="px-5 flex flex-col items-center justify-center">
-          <h1 className="text-5xl text-white leading-tight font-Poppins font-bold text-center pt-10">
+          <h1 className="text-5xl text-white leading-tight font-Poppins font-bold text-center pt-10 lg:text-left lg:text-4xl">
             The most intuitive app
             <br /> you can get.
           </h1>
@@ -27,16 +27,15 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* <div className="w-[77%] relative bg-red mx-auto bottom-0">
+      <div className="w-[77%]  bg-red mx-auto">
         <Image
-          className="absolute top-16"
+          className="lg:absolute relative top-20 lg:top-20 lg:right-12 lg:w-2/5 lg:h-[38rem]"
           src="/assets/images/muraajaco.webp"
           alt="muraajaco"
           height={450}
           width={450}
         />
-        
-      </div> */}
+      </div>
     </section>
   );
 };
