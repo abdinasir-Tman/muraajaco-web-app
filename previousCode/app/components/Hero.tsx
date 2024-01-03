@@ -3,10 +3,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="bg-[#10b981] relative w-full px-48 md:px-8 lg:flex-row md:flex-col sm:pb-[160px]  flex lg:gap-6">
-      <div className=" flex lg:flex-row md:flex-col md:py-[60px] justify-center items-center">
-        <div className="w-[90%] flex flex-col justify-center items-left md:items-center gap-5">
-          <h1 className="lg:text-6xl text-white  tracking-wide leading-[75px] md:leading-[40px] md:text-4xl md:text-center font-extrabold font-Poppins">
+    <section className="bg-[#10b981] relative w-full  lg:px-48 md:px-8 sm:px-4 lg:flex-row md:flex-col md:pb-[160px]  flex lg:gap-6">
+      <div className=" flex lg:flex-row  sm:flex-col md:py-[60px] sm:py-[70px] justify-center items-center">
+        <div className="w-[90%] flex flex-col justify-center items-left sm:items-center md:items-center gap-5">
+          <h1 className="lg:text-6xl text-white  tracking-wide lg:leading-[75px] sm:leading-[20px]  md:leading-[40px] sm:text-9xl md:text-4xl  md:text-center font-extrabold font-Poppins">
             The most intuitive app
             <br /> you can get.
           </h1>
@@ -27,9 +27,9 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="w-[55%] lg:static md:relative">
+      <div className="w-[55%] lg:static  sm:relative">
         <Image
-          className="absolute lg:right-16  md:right-1/4 md:left-1/2 lg:-bottom-32 md:-bottom-[510px] -bottom-24 "
+          className="absolute lg:right-16  sm:right-1/4 sm:left-1/2 lg:-bottom-32 sm:-bottom-[510px]  "
           src="/assets/images/muraajaco.webp"
           alt="muraajaco"
           height={450}
