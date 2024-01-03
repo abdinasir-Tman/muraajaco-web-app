@@ -3,7 +3,7 @@ import Image from "next/image";
 import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="bg-[#1A263D] w-full py-10 lg:py-24 lg:px-25 lg:grid-cols-6 px-10 grid h-screen gap-5">
+    <footer className="bg-[#1A263D] w-full py-10 lg:py-24 lg:px-25 lg:grid-cols-6 px-10 grid gap-5">
       <div>
         <h1 className="mb-4 text-[#10b981] text-2xl font-bold">NEW</h1>
         <p className="text-gray-500 mb-3 cursor-pointer hover:text-[#10b981]">

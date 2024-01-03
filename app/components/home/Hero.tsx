@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section className=" relative w-full px-2 bg-[#10b981] h-screen  lg:px-40 md:h-[40rem]">
       <div className="flex lg:flex-row md:flex-col flex-col">
-        <div className="px-5 flex flex-col items-center justify-center lg:pt-32 lg:items-start md:px-20">
+        <div className="px-5 flex flex-col items-center justify-center lg:pt-32 lg:items-start md:px-20 lg:px-12">
           <h1 className="text-5xl text-white leading-tight lg:leading-[65px] font-Poppins font-bold text-center pt-10 lg:text-left lg:text-5xl lg:w-[27rem]">
             The most intuitive app you can get.
           </h1>
